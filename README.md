@@ -1,2 +1,3 @@
 # 100DaysOfMLCode
-#100DaysOfMLCode challenge repo
+#100DaysOfMLCode challenge
+I've joined #100DaysOfMLCode Challenge
