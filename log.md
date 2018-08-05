@@ -30,3 +30,20 @@
 * Linear Regression: 26/30
 * Logistic Regression: 24/30
 
+**Due to Health issues I was unable to hold the challenge for 2days.
+
+### Day 6: August 3, 2018
+
+**Today's Progress**: Tried SVR with Grid search and Randomized search for house price prediction problem.
+**Thoughts**: After using SVR with Grid search, the results were not better than Random forest, will look more into it and will find what I can do.
+
+### Day 7: August 4, 2018
+
+**Today's Progress**: Spent time on Google colabrotary, and floydhub setup
+**Thoughts**: Tried floydhub cloud service, and use it for my basic house price machine learning model but I dont find it much faster. Though I used the free service for now.
+
+### Day 8: August 5, 2018
+
+**Today's Progress**: A day on reading Chapter 6 of ISLR, subset selection, stepwise selection method and choosing optimal method.
+**Thoughts**: Before approaching a non linear way we should check all possibilites with the linear so this is what I learned, selecting important features for a linear model is very important.
+
