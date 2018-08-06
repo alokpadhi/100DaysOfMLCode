@@ -47,3 +47,9 @@
 **Today's Progress**: A day on reading Chapter 6 of ISLR, subset selection, stepwise selection method and choosing optimal method.
 **Thoughts**: Before approaching a non linear way we should check all possibilites with the linear so this is what I learned, selecting important features for a linear model is very important.
 
+### Day 9: August 6, 2018
+
+**Today's Progress**: started working on a new project, classification of hand written digits using MNIST dataset.
+**Thoughts**: So today I thougt before working on multiclass, I should work on single digit means a binary classfication. so far so good, confusion matrix as performance measure. Mention that to measure confusion matrix i used kfold crossvalidation.
+**Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
+
