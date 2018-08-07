@@ -66,3 +66,10 @@
 
 **Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
 
+### Day 9: August 6, 2018
+
+**Today's Progress**: Worked on binary classification for MNIST, did some more performance measure. 
+
+**Thoughts**: Binary classification of digit recognition is about to finish, but before that I want to spend a little more time on exploring and visualizing data, and then will approach for multilabel classification task.
+
+**Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
