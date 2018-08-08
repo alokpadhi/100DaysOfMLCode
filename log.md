@@ -66,10 +66,18 @@
 
 **Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
 
-### Day 9: August 6, 2018
+### Day 10: August 7, 2018
 
 **Today's Progress**: Worked on binary classification for MNIST, did some more performance measure. 
 
 **Thoughts**: Binary classification of digit recognition is about to finish, but before that I want to spend a little more time on exploring and visualizing data, and then will approach for multilabel classification task.
+
+**Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
+
+### Day 11: August 8, 2018
+
+**Today's Progress**: More time spent on confusion matrix, precision-recall trade off
+
+**Thoughts**: almost 2-3 days on confusion matrix and still hang on it. The matrix is so simple but the  info that need to obtain is bit trickt. You need to figure out when precision is important and where recall. obviously you can opy for f1 score but those two are really need to be taken care off.
 
 **Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
