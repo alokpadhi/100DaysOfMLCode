@@ -81,3 +81,11 @@
 **Thoughts**: almost 2-3 days on confusion matrix and still hang on it. The matrix is so simple but the  info that need to obtain is bit trickt. You need to figure out when precision is important and where recall. obviously you can opy for f1 score but those two are really need to be taken care off.
 
 **Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
+
+### Day 12: August 9, 2018
+
+**Today's Progress**: precision-recall tradeoff continues, plot precision-recall-threshold plot
+
+**Thoughts**: so it's spending time on project, try to understand what each line of code provides, setting a threshold for precision and recall is really challenging, to get a better precision value. lowering the recall is not a good idea at all. That's where ROC may be a good approach let's see what happens.
+
+**Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
