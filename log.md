@@ -89,3 +89,37 @@
 **Thoughts**: so it's spending time on project, try to understand what each line of code provides, setting a threshold for precision and recall is really challenging, to get a better precision value. lowering the recall is not a good idea at all. That's where ROC may be a good approach let's see what happens.
 
 **Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
+
+### Day 13: August 10, 2018
+
+**Today's Progress**: completed work on the binary classification for a single digit in the MNIST data set
+
+**Thoughts**: Didn't try so many algorithm, one linear algorithm and one random forest just to get some insights about how the data behaves by performing different algorithms on a single digit.
+
+**Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
+
+### Day 14: August 11, 2018
+
+**Today's Progress**: started work on multi class classification task on MNIST data set
+
+**Thoughts**: Tried out onevsall method to get started, and the algorithm I used is stochastic gradient descent method.
+
+**Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
+
+### Day 15: August 12, 2018
+
+**Today's Progress**: Multi class classification task continued and worked on error analysis
+
+**Thoughts**: using confusion matrix, analysing the error for multiclass problem is bit tricky as the confusion matrix array barely makes any sense. so it's better to plot the matrix and a visual insight clears a lot about the classifier.
+
+**Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
+
+### Day 16: August 13, 2018
+
+**Today's Progress**: Partial completed the multiclass MNIST task. more work on error analysis 
+
+**Thoughts**: after look for the whole scene, sometimes analyising the single classes are really helpful, and after that you can imporove the classifier more.
+
+**Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
+
+
