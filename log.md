@@ -122,4 +122,15 @@
 
 **Link to work**: [MNIST Classifier](https://github.com/alokpadhi/MNIST-Digit-Classfier.git)
 
+### Day 17: August 14, 2018
 
+**Today's Progress**: simple Linear Regression with OLS method 
+
+**Thoughts**: Linear regression is one of those algorithm that every peple get started with, linear regression is typically reminds of straight line. where the intercept and coefficent terms were also present though it's just about the simple linear regression.
+
+
+### Day 16: August 13, 2018
+
+**Today's Progress**: One more step to linear regression with gradient descent
+
+**Thoughts**: Normalization is good but not enough to run a linear regression in all cases that's where gradient descent comes with it's 3 variants. Batch, stochastic, mini-batch gradient descent. All 3 methods are really good. where Batch GD ensure to give you a optimal point but takes bit long time when the training examples is large. but other two are doesn't bother about the size of training examples, but one bad thing about these is they gives you a good minimal point but the optimal point. But this can be also avoided with some tweaks with the necessary parameters. 
