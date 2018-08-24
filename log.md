@@ -164,7 +164,8 @@
 **Today's Progress**: Played with iris data set , Taken analytics vidhya svm skill test
 
 **Thoughts**: Exploring and learning svm, so tried svm with the iris data set as this one of the basic classification task. and through this it really helps to understand what svm doing with the data.
-**Analytics Vidhya SVM Skill test score: 23/25
+
+**Analytics Vidhya SVM Skill test score: 23/25**
 
 ### Day24: August 21, 2018
 
