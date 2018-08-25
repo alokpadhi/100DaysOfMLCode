@@ -185,6 +185,11 @@
 
 **Thoughts**: well to test all these algorithm what I have learned, I used make_moon dataset from sklearn. They give fairly good understanding with VotingClassifier, BaggingClassifier and RandomForestClassifier. Then move to udacity to pick one algorithm of your own. I choose RandomForest and applied it to terrain data and got 92% accuracy and sadly I failed to beat the self driving score of 93.6%. I tried with tweaking some of hyper parameters but not getting good score than 92%. Also my oob_score was about 96%. but will try adaboost to see how it predicts.
 
+### Day27: August 24, 2018
+
+**Today's Progress**:  Ensemble learning continues with Adaboost. and applied on the #udacity intro to ml mini project
+
+**Thoughts**: Adaboost really wonderful. Its one of the best time when I learned Adaboost. What's so cool about is the way it improvise upon a weak learner. Found some similarity with neural nets. The way it updated weights I mean incresing and decreasing as per necessity. and one more thing is to there aren't many hyperparameters as in RandomForest. Finally adaboost on the terrain data of udacity. and guess what I got 93.2% accuracy score, whereas their accuracy score was 93.6%. Hmm I might try out to learn a car for self driving. But dissapointed as I failed to beat that score.
 
 
 
