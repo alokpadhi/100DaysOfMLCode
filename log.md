@@ -191,5 +191,48 @@
 
 **Thoughts**: Adaboost really wonderful. Its one of the best time when I learned Adaboost. What's so cool about is the way it improvise upon a weak learner. Found some similarity with neural nets. The way it updated weights I mean incresing and decreasing as per necessity. and one more thing is to there aren't many hyperparameters as in RandomForest. Finally adaboost on the terrain data of udacity. and guess what I got 93.2% accuracy score, whereas their accuracy score was 93.6%. Hmm I might try out to learn a car for self driving. But dissapointed as I failed to beat that score.
 
+### Day28: August 26, 2018
+
+**Today's Progress**:  Ensemble learning Finished. Gradient boosting learned. 
+**Thoughts**: So this is the day where I learned almost important supervised learning algorithms. To end this Gradient boosting technique. not a heavy day of coding but still its something to implement.
+
+### Day29: August 28, 2018
+
+**Today's Progress**: Dimensinality reduction technique. projection and manifold. #udacity intro to ml datasets POI
+
+**Thoughts**: PCA to reduce dimensions. and exploring interest info on the enron datasets. so called POI in the udacity intro to ml course. some basic intutive and some coding to answer question.
+
+### Day30: August 29, 2018
+
+**Today's Progress**:  So POI on enron data continues.
+
+**Thoughts**: Exploring more information on the enron dataset. moreover go deeper into the problem and did a case study, which will helps to analyse the problem domain and interest of features and targets.
+
+### Day31: August 30, 2018
+
+**Today's Progress**:  Diggind enron dataset finished. move to regression part. Python coding: Numpy, list and package
+
+**Thoughts**: Regression analysis on the enron dataset.Used Sum of squares and r2 score to analysis the prediction. then some python coding on nummpy. explored list part on datacamp.
+
+### Day32: August 31, 2018
+
+**Today's Progress**:  Improve r2 score on enron dataset. python coding: matplotlib, hist(), tick, scatter(), labels, customizing plots
+
+**Thoughts**: As at a very stage using r2 on the enron provides really bad score. then working out on the outliers provides a better result. and with this regression section finished for the udacity intro to ml section. some visualization learned using matplotlib. scatter plot, histogram, and bit more customization.
+
+### Day33: september 1, 2018
+
+**Today's Progress**:  Pandas dataframe and series, outlier detection
+
+**Thoughts**: as I was using outlier on regression but that does not yield a better scope of outlier insight. so learning more detailed about outlier. one simple algorithm to work on outlier. some times outliers matters so it depens on the problem. and look into the outliers either they providing some valuable info or nor. then some pandas series and dataframes. python dicionary.
+
+### Day34: September 3, 2018
+
+**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+
+**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+
+
+
 
 
