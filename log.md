@@ -232,6 +232,176 @@
 
 **Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
 
+### Day35: September 4, 2018
+
+**Today's Progress**:  basic intermediate python skills to make a adwords for a furniture company
+
+**Thoughts**: another real-world project. create a set of keywords for an online furniture retailer. using basic python and a couple of pandas function helps to generate a set of keywords and save that into a csv file.
+
+**Link to Work**:
+
+
+
+### Day36: September 5, 2018
+
+**Today's Progress**:  arguments on functions, lambda functions and error handling
+
+**Thoughts**: python coding: default function argument, flexible arguments. map(), filter(), reduce() with lambda function. error handling &  finally, a data science work using all the above: #tweets in different languages using twitter data.
+
+### Day37: September 6, 2018
+
+**Today's Progress**:  Python iterators, zip(), list comrehension, case study on world bank data
+
+**Thoughts**: Learned about python iterators, list comprehensions & generators deeply. divided large-scale datasets into chunks and preprocess on each chunk. finally using all these worked on world bank data. python generators for streaming data, context manager for efficient file reading. iterators for streaming data
+
+### Day38: September 8, 2018
+
+**Today's Progress**: importing data using pandas, imported data from flat files
+
+**Thoughts**: Learned about various ways of importing data from various sources. Reading a text flle using open(), read(), close(), readline(). worked with flat files using numpy and pandas. loadtxt(), genfromtxt(), recfromcsv(). imported using pandas functions read_csv() with some custom arguments.
+
+### Day39: September 9, 2018
+
+**Today's Progress**:  importing data extended with other file formats like pickle, excel spreadsheet, matlab files etc
+
+**Thoughts**: started with imporing data from pickled files which allows converting objects to bytestream. then excel spreadsheet using pandas.cutomized spreadsheet import. imported SAS/Stata files. SAS7BDAT() used to import Statistical analysis system files and read_stata() to read stata files. then hierarchical data files using h5py. also worked with importing matlab data files.
+
+### Day40: September 11, 2018
+
+**Today's Progress**:  worked with relational databases file importing, imported from web by scraping using various python libraries.
+
+**Thoughts**: collecting data from relational databases & store them as pandas data frame. import data from the web using urllib, requests. import files through HTTP requests using urllib & requests. then scrap web using BeautifulSoup, apis & json.
+
+**Take Away**: sql_alchemy, create database engine and then use that engine to read database using sql query and then convert to pandas dataframe. urllib , requests. BeautifulSoup(), Soup.title, Soup.get_text(), Soup.findall(), json.
+
+### Day41: September 12, 2018
+
+**Today's Progress**:  Cleaning data started, EDA cycle, EDA visually, tidy data, melting, pivoting data, melting and parsing
+
+**Thoughts**: cleaning data, common data problems, inconsistent column names, missing data, duplicate rows, processing columns, untidy data. exploratory data analysis with summary statistics with different pandas functions. then tried to analyze ED with different plots. Understands the concept of tidy data. melting and pivoting for the data.
+
+**Take Away**: head(), tail(), .columns, .shape, info(), .value_counts() with dropna args. .describe() to see the summary stats. visual EDA with bar plots when there is discrete daa, histograms when continous data, box plots to visualize the basic summary stats. principles of tidy data. Melting to turn columns into rows and pivoting to turn unique values to separate columns. .split() and .get()
+
+### Day42: September 13, 2018
+
+**Today's Progress**:  concatenating data, globbing, merge data, prepare and clean data, regex, apply(), assert()
+
+**Thoughts**: concatenating data, both row wise and column wise. finding and concatenating when a large numbers of data files are present with globbing. merging data frames with 1-1, 1-many/many-1, many-many. preapare and clean data with converting data types, using categorical data, converting string to numerical data. Used to regex to clean the strings. Dealt with complex cleaning with apply(), duplicate and missing data. finally testes with assert statement to check everyting is ok or not.
+
+**Take away**: pd.concat() to concat more than one data files, finding relevant data files using glob, glob.glob() to match and concat. merging data files with pd.merge(), convert data types with .astype(), to_numeric() to convert data to numeric type, used re module to match patterns in string data. .apply(), .drop_duplicates() to drop duplicate rows. dealt with missing data, check to drop with .dropna() and to fill with .fillna(), either with some predefined value or with some statistics like meadian(), mean(). assert 
+
+### Day43: September 14, 2018
+
+**Today's Progress**:  DataFrame, series, broadcasting, inspect dataframe, plotting, EDA, statstical EDA, separate populations.
+
+**Thoughts** and **Take Away**: 
+* Slicing with iloc[], loc[]
+* head(), tail(), info()
+* Series
+* Building dataframes from scratch
+  * pd.DataFrame(dict)
+  * used zip() to zipping two lists, one with list columns and list labels
+  * then convert that zipped object to dictionary 
+  * finally convert the dict to dataframe
+* Broadcasting
+* importing csv files
+  * define column names to csv file with header=None, names=[]
+  * missing values replaced with Nan with na_values args in read_csv()
+  * parse dates with parse_dates args in read_csv()
+  * info() to inspect data frame columns and types.
+  * to_csv() and to_excel() to write into csv and excel files
+* plotting with pandas
+  * plot()
+  * scaling with xscale and yscale
+  * customize plots with color, style, legen args
+  * savefig()
+  * title()
+  * subplots args in plot()
+* Visual EDA
+  * scatter plot
+  * box plot
+  * histogram
+    * PDF to get PDF normed should True 
+    * CDF to get CDF normed and cumulative both are True
+* Statistical EDA
+  * describe()
+    * counts
+    * mean
+    * standard deviation
+    * range
+    * median
+  * medians and quantile
+    * inter quantile range
+* separating populations
+  * filtering by category
+
+### Day44: September 15, 2018
+
+**Today's Progress**:  Time series data in pandas
+
+**Thoughts and Take Away**:
+* Indexing time series
+  * read_csv with parse_dates, string to datetime
+  * index_col to Date column
+* selecting datetime with loc
+* slicing with loc[]
+* convert string to datatime using to_datetime()
+* reindexing
+* fill missing value with forward fill and backward fill args
+* Resampling
+  * DownSampling
+  * UpSampling
+  * .resample()
+  * .rolling() to smoothout short time fluctuations in time series
+* manipulatig time series
+  * string method with df[].str.str_method
+  * .dt for datetime methods
+  * converting timezone with dt.tz_convert()
+  * interpolate missing data
+* visualize time series 
+  * line plots
+  * style formating with color, marker, line type
+  * area plots
+* finally case study on whether data and apple stock market data
+
+
+### Day45: September 17, 2018
+
+**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+
+**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+
+### Day46: September 18, 2018
+
+**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+
+**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+
+### Day47: September 20, 2018
+
+**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+
+**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+
+### Day48: September 21, 2018
+
+**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+
+**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+
+### Day49: September 22, 2018
+
+**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+
+**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+
+### Day50: September 23, 2018
+
+**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+
+**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+
+
 
 
 
