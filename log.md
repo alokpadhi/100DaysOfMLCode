@@ -362,45 +362,149 @@
   * line plots
   * style formating with color, marker, line type
   * area plots
-* finally case study on whether data and apple stock market data
+
 
 
 ### Day45: September 17, 2018
 
-**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+**Today's Progress**: Case study on whether data
 
-**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+**Thoughts**: whether data case study brings more practice for data analysis, both statistically and visually. some time series functionality also.
 
 ### Day46: September 18, 2018
 
-**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+**Today's Progress**: Case study on apple stock data
 
-**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+**Thoughts**: so a proper time series data sets, used to analyse stock price of apple. resampling, rolling, manipulating the data frame time series using pandas and obtain some useful information.
 
 ### Day47: September 20, 2018
 
-**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+**Today's Progress**:  Manipulating with pandas dataframe
 
-**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
-
+**Thoughts**: 
+* Indexing DataFrames
+ * indexing using square brackets
+ * using column and row
+ * using loc and iloc
+* Slicing dataframes
+ * slicing rows and columns
+ * slicing in reverse order
+* Filtering dataframe
+ * creating boolean series
+ * filtering in presence of null values
+  * isnull(), notnull()
+* Transforming dataframes
+ * vectorized methods
+ * transformation
+ * apply() and map()
+* Index objects and labeled data
+ * index name 
+ * setting index with read_csv
+* Hierarchical Indexing
+ * multiindex
+ * sorting index
+ * slicing hierarchical index
+ * filtering with fancy index
+ * slice()
 ### Day48: September 21, 2018
 
-**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+**Today's Progress**:  Pivoting dataframes, catrogory group, titanic survival case study 
 
-**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+**Thoughts**:
+* Pivoting DataFrames
+ * reshaping 
+ * stacking and unstacking
+ * melting
+ * pivot tables
+* Catregoricals and groupby
+ * groupby()
+ * groupby() and aggfunc()
+ * groupby() and transform()
+ * splittting
+* Case Study : Titanic Survival Problem
 
 ### Day49: September 22, 2018
 
-**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+**Today's Progress**:  Reading data files, indexing, appending and concatenating
 
-**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+**Thoughts**: 
+* Reading multiple data files
+ * read_csv()
+ * using loop()
+ * using comprhensions
+ * using glob
+* Reindexing dataframes
+ * reindex()
+ * sort_index()
+ * sort_values()
+* Appending and concatenating
+ * append()
+ * concat()
+ * reset_index()
+ * concatenation, keys and multiindex
 
 ### Day50: September 23, 2018
 
-**Today's Progress**:  Looping over pandas dataframe and a random walk simulation
+**Today's Progress**:  Join, merging dataframes, olympic case study
 
-**Thoughts**: Learned how to looping over numpy and pandas efficiently. a emperor state building step reaching simulation. using random walks,(numpy random) a simulation to predict what is the probability that you will reach at 60 step after the dice has been rolled. so the distribution probabilty says: 78.4%
+**Thoughts**:
+* Outer join and inner join
+ * stacking horizontally
+ * stacking vertically
+ * joins
+ * .innerjoin
+ * concatenate and innerjoin
+ * concatenate and outerjoin
+* Merging DataFrames
+ * merge()
+ * merging multiple columns
+ * merge using suffix()
+* Join dataframes
+ * merge with left join
+ * merge with right join
+ * outerjoin
+* case study: Olympic game 
 
+### Day51: September 24, 2018
+
+**Today's Progress**:  
+
+**Thoughts**: 
+
+### Day52: September 25, 2018
+
+**Today's Progress**:  
+
+**Thoughts**:
+
+
+### Day53: September 26, 2018
+
+**Today's Progress**:  
+
+**Thoughts**: 
+
+
+### Day54: September 27, 2018
+
+**Today's Progress**:  
+
+**Thoughts**:
+
+### Day55: September 29, 2018
+
+**Today's Progress**: 
+
+**Thoughts**:
+ 
+
+
+### Day56: September 30, 2018
+
+**Today's Progress**:  
+
+**Thoughts**:
+ 
 
 
 
