@@ -467,43 +467,91 @@
 
 ### Day51: September 24, 2018
 
-**Today's Progress**:  
+**Today's Progress**: SQL started, select columns,filtering results, null values
 
 **Thoughts**: 
+* selecting columns
+ * SELECT
+ * SELECT DISTINCT
+ * COUNT()
+* Filtering results
+ * WHERE clause
+ * WHERE AND OR
+ * BETWEEN
+ * WHERE IN
+* Finding and treating null values
+ * NULL
+ * count missing values with COUNT() and NULL
+* searching in data
+ * LIKE to search a pattern
+ * wild cards
+ * NOT LIKE
 
 ### Day52: September 25, 2018
 
-**Today's Progress**:  
+**Today's Progress**:  PostgreSQL aggregate functions, order by, group by, having
+
 
 **Thoughts**:
-
+* Aggregate functions
+ * AVG, MAX, MIN, SUM
+ * AS aliasing in aggregate columns
+* ORDER BY
+* GROUP BY
+* HAVING
 
 ### Day53: September 26, 2018
 
-**Today's Progress**:  
+**Today's Progress**:  worked with databased with python, SQLAlchemy, database connection, reflection, sql querying, filtering and targeting data
 
 **Thoughts**: 
-
+* SQLALchemy connection to database
+* Reflection of tables with Table object and MetaData
+* worked on sql queries like SELECT and WHERE
+* insted of executing statement used MetaData and Table to help execute with SQLAlchemy
+* Filtering and Targeting Data
+ * execute with WHERE clause
+ * in_(), like_(), between_(), and_(), any_(), or_(), not_()
+ * ordering with order_by() and desc()
+* Counting summing and grouping
+ * Groupby with group_by
+ * aliasing with .label() method
+ * counting distinct values with .distinct()
 
 ### Day54: September 27, 2018
 
-**Today's Progress**:  
+**Today's Progress**:  Visualizing, CASE staement, Joining, hierarchical table, large results sets, creating database, inserting data,update data and remove data from table
 
 **Thoughts**:
-
+* convert the Metadata table into data frame
+* plotting the dataframe
+* CASE statement
+* automatic JOIN
+* join with join()
+* Hierarchical Tables
+ * alias() to refeer a table with two unique names
+ * self refering and join
+* dealing with larger result sets
+* create database with SQLAlchemy
+* insert data into table
+* update data into table
+* finally remove data and drop table
 ### Day55: September 29, 2018
 
-**Today's Progress**: 
+**Today's Progress**: worked with data science projects exploring 67 years of LEGO and evolution of LINUX
 
 **Thoughts**:
- 
+ Both project works present in github repo [Real World Data Science Projects] 
+(https://github.com/alokpadhi/Real-World-Data-Science-Projects)
 
 
 ### Day56: September 30, 2018
 
-**Today's Progress**:  
+**Today's Progress**:  Today's project work is analyse the volatility of bitcoin and you should invest on it or not
 
 **Thoughts**:
+The project details present in the repo [Real World Data Science Projects](https://github.com/alokpadhi/Real-World-Data-Science-Projects)
+This project is lieterally love by me, one of the enjoyable projects I have made.
  
 
 
