@@ -552,6 +552,112 @@
 **Thoughts**:
 The project details present in the repo [Real World Data Science Projects](https://github.com/alokpadhi/Real-World-Data-Science-Projects)
 This project is lieterally love by me, one of the enjoyable projects I have made.
+
+### Day57: October 1, 2018
+
+**Today's Progress**:  Plotting multiple graphs, customize plots, styling, 2D array plot, bivariate functions, visualize bivariate distribution
+
+**Thoughts**:
+* Plotting multiple graphs
+ * plt.axes()
+ * plt.subplots()
+* Customize axes
+ * axis()
+ * xlim(), ylim()
+* Legends, annotations, styles
+ * legend()
+ * annotation with annotate()
+* styles
+ * ggplot, fivethirtyeight
+* working with 2D array
+ * meshgrid
+* visualize bivariate functions
+ * Bivariate functions
+  * plt.pcolor()
+  * colormap wit cmap argument
+  * contour()
+* Visualize bivariate distribution
+ * Histogram in 1D
+ * hist2d
+ * hexbin
+### Day58: October 2, 2018
+
+**Today's Progress**:  Working with images, seaborn
+
+**Thoughts**:
+* Working with images
+ * plt.imread()
+ * reduce image to gray scale
+  * set_cmap(
+  * imshow()
+ * aspect ration adjustment
+ * extent adjust
+* Seaborn
+ * linear regression plot lmplot()
+ * residual plot residplot()
+ * higher order regression plot regplot()
+ * Visualize univariate distribution
+  * strip plot
+  * swarm plot
+  * violin plot
+ * Visualize multivariate distribution
+  * joint plot
+  * pair plot
+  * heat plot
+### Day59: October 3, 2018
+
+**Today's Progress**:  Visualize time series, Bokeh, plotting with glyphs
+
+**Thoughts**:
+
+
+### Day60: October 4, 2018
+
+**Today's Progress**: customizing glyphs, layouts, Project: Data analysis of baseball 
+**Thoughts**:
+
+
+### Day61: October 5, 2018
+
+**Today's Progress**:  Tabbed layout, linkinging plot together, annotations, guide, Project: Gender predict with sound 
+
+**Thoughts**:
+
+
+### Day62: October 6, 2018
+
+**Today's Progress**:  bokeh server, slider, dropdown widget, project: Recreation John snow's ghost map
+
+**Thoughts**:
+
+
+### Day63: October 8, 2018
+
+**Today's Progress**:  numerical EDA, swarm plot, ecdf, percentile, outliers, boxplot, variance, std deviation, covariance, pearson correlation
+
+**Thoughts**:
+
+
+### Day64: October 9, 2018
+
+**Today's Progress**:  probability with discrete variables, random number generator, hacker stats, bernouli trial
+
+**Thoughts**:
+
+
+### Day65: October 10, 2018
+
+**Today's Progress**:  probability binomial dist,  poisson process, poisson dist, PDF, normal dist, exponential dist, parameter estimation by optimization
+
+**Thoughts**:
+
+
+### Day66: October 11, 2018
+
+**Today's Progress**: bootstrap confidence interval, pairs bootstrap, hypothesis testing, test stat and p-value, A/B testing
+Project: Discovery of handwashing analysis, Cookie cats game A/B testing
+**Thoughts**:
+
  
 
 
